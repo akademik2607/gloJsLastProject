@@ -1,0 +1,25 @@
+{
+  "name": "jsLastWork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akademik2607/gloJsProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akademik2607/gloJsProject/issues"
+  },
+  "homepage": "https://github.com/akademik2607/gloJsProject#readme"
+}
