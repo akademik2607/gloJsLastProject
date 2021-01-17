@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("Здесь будет скрипт слайдера")})();
+(()=>{"use strict";console.log("Здесь будет скрипт слайдера"),(()=>{const e=document.querySelectorAll(".callback-btn"),l=document.querySelector(".modal-callback"),o=document.querySelector(".modal-overlay");e.forEach((c=>{c.addEventListener("click",(e=>{e.preventDefault(),console.dir(e),o.style.display="block",l.style.display="block"})),console.log(e)}))})()})();
