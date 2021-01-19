@@ -10,14 +10,13 @@ const togglePopUp = () => {
             modalCallback.style.display = 'block';
         });
 
-    const closePopUp = () => {
-        modalOverlay.style.display = 'none';
-        modalCallback.style.display = 'none';
-    };
+        const closePopUp = () => {
+            modalOverlay.style.display = 'none';
+            modalCallback.style.display = 'none';
+        };
 
-    modalClose.addEventListener('click', closePopUp);
-    modalOverlay.addEventListener('click', closePopUp);
-    console.log(callbackBtn);
+        modalClose.addEventListener('click', closePopUp);
+        modalOverlay.addEventListener('click', closePopUp);
     });
 };
 
