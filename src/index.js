@@ -8,6 +8,7 @@ import scrollPage from './modules/scrollPage';
 import accordeonAction from './modules/accordeon';
 import formRequest from './modules/ajax';
 import formValidator from './modules/formValidator';
+import carouselSlider from './modules/carouselSlider';
 
 topSlider();
 togglePopUp();
@@ -17,3 +18,4 @@ scrollPage();
 accordeonAction();
 formRequest();
 formValidator();
+carouselSlider();
