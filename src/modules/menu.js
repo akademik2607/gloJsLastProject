@@ -1,6 +1,28 @@
 const menu = () => {
+    const topMenu = document.querySelector('.top-menu');
 
-    console.dir(document);
+    topMenu.addEventListener('click', (event) => {
+        event.preventDefault();
+        const target = event.target;
+
+        if (target.matches("[href='#services']")){
+            const services = document.getElementById('services');
+            console.dir(services);
+            document.documentElement.scrollTop = services.offsetTop;
+        }else if(target.matches("[href='#faq']")){
+            const services = document.getElementById('faq');
+            console.dir(services);
+            document.documentElement.scrollTop = services.offsetTop;
+
+        }else if(target.matches("[href='#contacts']")){
+            const services = document.getElementById('contacts');
+            console.dir(services);
+            document.documentElement.scrollTop = services.offsetTop;
+
+        }
+
+    });
+    
 };
 
 
