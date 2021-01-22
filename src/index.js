@@ -10,7 +10,6 @@ import formRequest from './modules/ajax';
 import formValidator from './modules/formValidator';
 import carouselSlider from './modules/carouselSlider';
 
-topSlider();
 togglePopUp();
 menu();
 ourServicesSlider(); 
@@ -19,3 +18,4 @@ accordeonAction();
 formRequest();
 formValidator();
 carouselSlider();
+topSlider();

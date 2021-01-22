@@ -936,8 +936,8 @@ video#video_background {
 		height: 520px;
 	}
 	.top-slider .table {
-		opacity: 0;
-		visibility: hidden;
+		opacity: 1;
+		visibility: ;
 		-webkit-transform: scale(1.5);
 		-ms-transform: scale(1.5);
 		-o-transform: scale(1.5);
@@ -954,6 +954,9 @@ video#video_background {
 		opacity: 1;
 		visibility: visible;
 	}
+    .top-slider .table .container{
+        opacity:inherit;
+    }
 }
 
 @media only screen and (min-width: 1240px) {

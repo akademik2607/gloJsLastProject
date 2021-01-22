@@ -1,5 +1,5 @@
 const formValidator = () => {
-    const tel = document.querySelectorAll('input[name="tel"]'),
+    const tel = document.querySelectorAll('input[name="tel"]')('input[name="tel"]'),
         fio = document.querySelectorAll('input[name="fio"]');
     
     tel.forEach((item) => {
