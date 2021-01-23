@@ -33,7 +33,7 @@ const formRequest = () => {
                 setTimeout(() => {statusMessage.textContent = '';}, 5000);
             }); 
 
-            request.open('GET', './server.php');
+            request.open('POST', './server.php');
             request.setRequestHeader('Content-Type', 'application/json');
             const data = new FormData(item);
 

@@ -69,7 +69,7 @@ const topSlider = () => {
 
         clickDots(){
             const slickDots = this.slider.querySelector('.slick-dots'); 
-            this.sslickDots.addEventListener('mouseover', (event) => {
+            slickDots.addEventListener('mouseover', (event) => {
                 const target = event.target;
                 if(target.matches('li')){
                     clearInterval(this.indInterval);
